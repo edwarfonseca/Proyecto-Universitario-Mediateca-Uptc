@@ -1,0 +1,182 @@
+
+header {
+    background-color: white;
+}
+.volver img{
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 1.6%;
+    width: 60px;
+}
+.titulo-principal{
+    font-size: 70px;
+    margin-left: 20px;
+    
+}
+.titulo-principal h1 img{
+    padding-left: 20px;
+    height: 120px;
+    position: absolute;
+}
+.titulo-principal h2 img{
+    padding-top: 90px;
+    padding-left: 600px;
+    height: 120px;
+}
+main{
+    background-color: #FFD553;
+}
+.servicios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+.servicios h2{
+    padding: 25px 0 25px 0;
+}
+.servicios h2 a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.servicios img{
+    height: 125px;
+}
+.servicios p{
+    padding: 25px 0 0 0;
+}
+.servicios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.servicios li:hover{
+    border-color: #c78c19;
+}
+.servicios li:hover h2{
+    font-size: 33px;
+}
+.servicios li:active{
+    border-color: #088c19;
+}
+.servicios h2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.servicios-descripcion{
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+footer img{
+    height: 50px;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+/* Style de Peliculas*/
+
+.cartelera{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+.cartelera h2{
+    padding: 0 0 25px 0;
+}
+.cartelera h2 a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.cartelera img{
+    height: 300px;
+}
+.cartelera p{
+    padding: 25px 0 0 0;
+}
+.cartelera li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.cartelera li:hover{
+    border-color: #c78c19;
+}
+.cartelera li:hover h2{
+    font-size: 27px;
+}
+.cartelera li:active{
+    border-color: #088c19;
+}
+.cartelera h2{
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.cartelera-descripcion{
+    font-size: 18px;
+}
+/*Style Informacion*/
+.principal{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+.titulo-principal{
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.utensilios{
+    width: 200px;
+    float: right;
+    margin: 0 40px 40px 0;
+    margin-left: 3em;
+}
